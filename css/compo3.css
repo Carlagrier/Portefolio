@@ -1,0 +1,51 @@
+.mockupimage{
+    height:70%;
+    width: 70%;
+}
+.moodboardimage{
+    height: 70%;
+    width: 70%;
+}
+.croquiimage{
+   height: 50%;
+   width: 50%;
+}
+.piecediorama{
+    width: 50%;
+    height: 50%;
+}
+.lumiereimage{
+    width: 50%;
+    height: 50%;
+}
+.architectureimage{
+    width: 80%;
+    height: 80%;
+}
+
+
+
+
+.photoanimation3D{
+    margin: auto;
+   display: flex;
+   position: absolute;
+}
+.photojeuxvideos{
+    display: flex;
+    justify-content: center;
+}
+.photocommunication{
+    display: flex;
+    justify-content: center;
+}
+.photocoding{
+    display: flex;
+    justify-content: center;
+}
+.photojeuxvideos{
+    display: flex;
+    justify-content: center;
+}
+
+

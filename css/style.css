@@ -1,0 +1,379 @@
+@import url(componant/compo.css);
+*{
+    background-color: darksalmon;
+}
+.titre1{
+    color: black;
+    text-align: center;
+}
+.titre2{
+    color: black;
+    text-align: center;
+}
+.image{
+width: 10%;
+
+}
+
+.milieu{
+   display: flex;
+   justify-content: space-between;
+}
+
+
+.titre3{
+    color: black;
+    text-align: center;
+}
+.test{
+    width: 100%;
+}
+.test button{
+    width: 17%;
+}
+.test .test2{
+    width: 25%;
+}
+
+
+
+.btnbtn-animation{
+   background-color: rgb(246, 243, 209);
+}
+.btnbtn-créa{
+    background-color: rgb(240, 140, 190);
+}
+.btnbtn-jv{
+    background-color: rgb(255, 250, 194);
+}
+.btnbtn-coding{
+    background-color: rgb(240, 189, 240);
+}
+.btnbtn-comm{
+    background-color: rgb(255, 216, 165);
+}
+
+
+
+
+.jeux{
+    width: 15%;
+    margin: 0 auto;
+    transition: all 10s;
+}
+.jeux:hover{
+    transform: rotate(360deg);
+}
+.crea{
+    width: 15%;
+    margin: 0 auto;
+    transition: all 10s;
+}
+.crea:hover{
+    transform: rotate(360deg);
+}
+.comm{
+    width: 15%;
+    margin: 0 auto;
+    transition: all 10s;
+}
+.comm:hover{
+    transform: rotate(360deg);
+}
+.coding{
+    width: 15%;
+    margin: 0 auto;
+    transition: all 10s;
+}
+.coding:hover{
+    transform: rotate(360deg);
+}
+
+
+
+.crea{
+    color: black;
+    text-align: center;
+    text-decoration: underline black;
+}
+.jeux{
+    color: black;
+    text-align: center;
+    text-decoration: underline black;
+}
+
+
+.comm{
+    color: black;
+    text-align: center;
+    text-decoration: underline black;
+}
+.coding{
+    color: black;
+    text-align: center;
+    text-decoration: underline black;
+}
+
+
+
+
+.texteanimation{
+    text-align: center;
+}
+.textejeuxvideos{
+    text-align: center;
+}
+.textecrea{
+    text-align: center;
+}
+.textecoding{
+    text-align: center;
+}
+.textecommunication{
+    text-align: center;
+}
+
+
+
+
+.mockupimage{
+    height:70%;
+    width: 70%;
+}
+.moodboardimage{
+    height: 70%;
+    width: 70%;
+}
+.croquiimage{
+   height: 50%;
+   width: 50%;
+}
+.piecediorama{
+    width: 50%;
+    height: 50%;
+}
+.lumiereimage{
+    width: 50%;
+    height: 50%;
+}
+.architectureimage{
+    width: 80%;
+    height: 80%;
+}
+
+
+
+
+.photoanimation3D{
+    margin: auto;
+   display: flex;
+   position: absolute;
+}
+.photojeuxvideos{
+    display: flex;
+    justify-content: center;
+}
+.photocommunication{
+    display: flex;
+    justify-content: center;
+}
+.photocoding{
+    display: flex;
+    justify-content: center;
+}
+.photojeuxvideos{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (min-width = 870px){
+    *{
+        background-color: darksalmon;
+    }
+    .titre1{
+        color: black;
+        text-align: center;
+    }
+    .titre2{
+        color: black;
+        text-align: center;
+    }
+    .image{
+    width: 10%;
+    
+    }
+    
+    .milieu{
+       display: flex;
+       justify-content: space-between;
+    }
+    
+    
+    .titre3{
+        color: black;
+        text-align: center;
+    }
+    .test{
+        width: 100%;
+    }
+    .test button{
+        width: 17%;
+    }
+    .test .test2{
+        width: 25%;
+    }
+    
+    
+    
+    .btnbtn-animation{
+       background-color: rgb(246, 243, 209);
+    }
+    .btnbtn-créa{
+        background-color: rgb(240, 140, 190);
+    }
+    .btnbtn-jv{
+        background-color: rgb(255, 250, 194);
+    }
+    .btnbtn-coding{
+        background-color: rgb(240, 189, 240);
+    }
+    .btnbtn-comm{
+        background-color: rgb(255, 216, 165);
+    }
+    
+    
+    
+    
+    .jeux{
+        width: 15%;
+        margin: 0 auto;
+        transition: all 10s;
+    }
+    .jeux:hover{
+        transform: rotate(360deg);
+    }
+    .crea{
+        width: 15%;
+        margin: 0 auto;
+        transition: all 10s;
+    }
+    .crea:hover{
+        transform: rotate(360deg);
+    }
+    .comm{
+        width: 15%;
+        margin: 0 auto;
+        transition: all 10s;
+    }
+    .comm:hover{
+        transform: rotate(360deg);
+    }
+    .coding{
+        width: 15%;
+        margin: 0 auto;
+        transition: all 10s;
+    }
+    .coding:hover{
+        transform: rotate(360deg);
+    }
+    
+    
+    
+    .crea{
+        color: black;
+        text-align: center;
+        text-decoration: underline black;
+    }
+    .jeux{
+        color: black;
+        text-align: center;
+        text-decoration: underline black;
+    }
+    
+    
+    .comm{
+        color: black;
+        text-align: center;
+        text-decoration: underline black;
+    }
+    .coding{
+        color: black;
+        text-align: center;
+        text-decoration: underline black;
+    }
+    
+    
+    
+    
+    .texteanimation{
+        text-align: center;
+    }
+    .textejeuxvideos{
+        text-align: center;
+    }
+    .textecrea{
+        text-align: center;
+    }
+    .textecoding{
+        text-align: center;
+    }
+    .textecommunication{
+        text-align: center;
+    }
+    
+    
+    
+    
+    .mockupimage{
+        height:70%;
+        width: 70%;
+    }
+    .moodboardimage{
+        height: 70%;
+        width: 70%;
+    }
+    .croquiimage{
+       height: 50%;
+       width: 50%;
+    }
+    .piecediorama{
+        width: 50%;
+        height: 50%;
+    }
+    .lumiereimage{
+        width: 50%;
+        height: 50%;
+    }
+    .architectureimage{
+        width: 80%;
+        height: 80%;
+    }
+    
+    
+    
+    
+    .photoanimation3D{
+        margin: auto;
+       display: flex;
+       position: absolute;
+    }
+    .photojeuxvideos{
+        display: flex;
+        justify-content: center;
+    }
+    .photocommunication{
+        display: flex;
+        justify-content: center;
+    }
+    .photocoding{
+        display: flex;
+        justify-content: center;
+    }
+    .photojeuxvideos{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+

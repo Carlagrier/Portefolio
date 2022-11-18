@@ -1,0 +1,53 @@
+.btnbtn-animation{
+    background-color: rgb(246, 243, 209);
+ }
+ .btnbtn-créa{
+     background-color: rgb(240, 140, 190);
+ }
+ .btnbtn-jv{
+     background-color: rgb(255, 250, 194);
+ }
+ .btnbtn-coding{
+     background-color: rgb(240, 189, 240);
+ }
+ .btnbtn-comm{
+     background-color: rgb(255, 216, 165);
+ }
+ 
+ 
+ 
+ 
+ .jeux{
+     width: 15%;
+     margin: 0 auto;
+     transition: all 10s;
+ }
+ .jeux:hover{
+     transform: rotate(360deg);
+ }
+ .crea{
+     width: 15%;
+     margin: 0 auto;
+     transition: all 10s;
+ }
+ .crea:hover{
+     transform: rotate(360deg);
+ }
+ .comm{
+     width: 15%;
+     margin: 0 auto;
+     transition: all 10s;
+ }
+ .comm:hover{
+     transform: rotate(360deg);
+ }
+ .coding{
+     width: 15%;
+     margin: 0 auto;
+     transition: all 10s;
+ }
+ .coding:hover{
+     transform: rotate(360deg);
+ }
+ 
+ 

@@ -1,0 +1,103 @@
+*{
+    background-color: burlywood;
+}
+div {
+    margin: 10em auto;
+    width: 20em;
+    background-color: #fc3;
+}
+h1{
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: underline;
+    font-size: 4em;
+}
+h2{
+    color: antiquewhite;
+    text-decoration: underline;
+    font-size: 2em;
+}
+.boite{
+    transform: rotate(45deg)scale(1);
+}
+.boite2{
+    transform: translate(5em,5em);
+}
+.boite3{
+    transform: skewX(30deg);
+}
+.boite4{
+    transition:all 1s;
+    transform: translate(50em,5em);
+}
+.boite4:hover{
+    transform: rotate(45deg);
+}
+.boite5{
+    transition: background 15s, transform 10s;
+}
+.boite5:hover{
+    transform: rotate(45deg);
+    background-color: red;
+}
+.boite6{
+    transition: all 1s ease-out 1s;
+}
+.boite6:hover{
+    transform: rotate(45deg);
+    background-color: red;
+}
+.boite7{
+    animation: slideleft 30s;
+}
+@keyframes slideleft{
+    from{
+        transform: translate(50%);
+        background: blue;
+    }
+to{
+    transform: translate(0);
+}
+}
+.boite8{
+    animation: slideright 30s;
+}
+@keyframes slideright{
+    from{
+        transform: translate(50%);
+        background: blue;
+    }
+    30%{
+        transform: translate(-50%);
+        background: red;
+        color: white;
+    } 
+    80%{
+        transform: translate(200%);
+        background: green;
+        color: red;
+    }  
+    to{
+        transform: translate(0);
+    }
+}.boite9{
+    animation: slidenight 30s infinite;
+}
+@keyframes slidenight{
+    from{
+        transform: translate(50%);
+        background: blue;
+    }
+    30%{
+        transform:translate(-50%);
+
+    }
+    80%{
+        transform: translate(200%);
+        background: green;
+        color: red;
+    }
+    to{
+        transform: translate(0);
+    }
+}
